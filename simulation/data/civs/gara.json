@@ -1,0 +1,158 @@
+{
+	"Code": "gara",
+	"Culture": "Garamantians",
+	"Name": "Garamantians",
+	"Emblem": "session/portraits/emblems/gara.png",
+	"History": "The Garamantians .",
+	"Music": [
+{
+			"File": "Mediterranean_Waves.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Harsh_Lands_Rugged_People.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Ammon-Ra.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Sands_of_Time.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_between_the_two_Seas.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Garamantians",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name": "",
+					"History": "",
+					"Description": ""
+				},
+				{
+					"Name": "",
+					"History": "",
+					"Description": ""
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "."
+				},
+				{
+					"Name": "",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "."
+				},
+				{
+					"Name": "",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": ""
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+	
+		{
+			"Name": "Garamantians",
+			"History": "Great Sahara merchants.",
+			"Description": "Higher income (+15%) from land trade routes."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "",
+			"History": "",
+			"Description": ""
+		}
+	],
+	"Structures":
+	[
+				{
+			"Name": "R",
+			"Class": "Bs",
+			"Emblem": "",
+			"History": "The  we Rome and adopted some of Rome's strategies.",
+			"Requirements": "",
+			"Phase": "",
+			"Special": "Allows  of RomanizedThra , Romanized Swordsmen, and Lancer Calvary."
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/gara/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/gara/civil_centre"
+		},
+		{
+			"Template": "units/gara/support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/gara/infantry_javelineer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/gara/infantry_spearman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/gara/cavalry_javelineer_b"
+		},
+		{
+			"Template": "units/gara/chariot_javelineer_b",
+			"Count": 1
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames":
+	[
+		"Djalla"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}/house",
+        "skirmish/units/special_starting_unit": "units/gara/chariot_javelineer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/gara/infantry_javelineer_b",
+		"skirmish/units/default_infantry_melee_b": "units/gara/infantry_spearman_b",
+	    "skirmish/units/default_ship_trireme":"units/{civ}/ship_bireme"
+	},
+
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
+        <prop actor="props/units/helmets/arab_coif_camelry_archer_b.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="tunic">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="skeletal/kush_merc_cavalry_r_01.png" name="baseTex"/>
+        <texture file="skeletal/kush_merc_cavalry_r_01_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic 2">
+      <props>
+        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+      </props>
+      <textures>
+        <texture file="skeletal/gara/gara4.png" name="baseTex"/>
+        <texture file="skeletal/kush_merc_cavalry_r_02_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/rider/camelry/base_archer_relax.xml"/>
+    <variant file="biped/rider/camelry/carry_meat.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/camelry/promotion.xml"/>
+    <variant file="biped/rider/camelry/attack_ranged_archer_right.xml"/>
+    <variant file="biped/rider/camelry/attack_slaughter.xml"/>
+    <variant file="biped/rider/camelry/gather_meat.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
+</actor>
