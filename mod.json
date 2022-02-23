@@ -4,5 +4,5 @@
 	"label": "gara",
 	"url": "",
 	"description": "Adds the garamantes",
-	"dependencies": ["0ad=0.0.25"]
+	"dependencies": ["0ad=0.0.26"]
 }

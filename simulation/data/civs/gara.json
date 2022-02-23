@@ -1,9 +1,7 @@
 {
 	"Code": "gara",
-	"Culture": "Garamantians",
 	"Name": "Garamantians",
-	"Emblem": "session/portraits/emblems/gara.png",
-	"History": "The Garamantians .",
+	"Culture": "Saara",
 	"Music": [
 {
 			"File": "Mediterranean_Waves.ogg",
@@ -87,18 +85,6 @@
 			"Description": ""
 		}
 	],
-	"Structures":
-	[
-				{
-			"Name": "R",
-			"Class": "Bs",
-			"Emblem": "",
-			"History": "The  we Rome and adopted some of Rome's strategies.",
-			"Requirements": "",
-			"Phase": "",
-			"Special": "Allows  of RomanizedThra , Romanized Swordsmen, and Lancer Calvary."
-		}
-	],
 	"WallSets":
 	[
 		"other/wallset_palisade",
@@ -128,18 +114,6 @@
 			"Template": "units/gara/chariot_javelineer_b",
 			"Count": 1
 		}
-	],
-	"Formations":
-	[
-		"special/formations/null",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line"
 	],
 	"AINames":
 	[

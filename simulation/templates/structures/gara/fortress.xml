@@ -11,14 +11,12 @@
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/champion_chariot
       units/{civ}/hero_djalla
     </Entities>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/garamantians/fortress.xml</Actor>
   </VisualActor>

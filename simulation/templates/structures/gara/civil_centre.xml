@@ -7,15 +7,13 @@
     <Civ>gara</Civ>
     <SpecificName></SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_javelineer_b
       units/{civ}/cavalry_javelineer_b
 	  units/{civ}/infantry_spearman_b
     </Entities>
-    <Technologies datatype="tokens">
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/garamantians/civic_center.xml</Actor>
   </VisualActor>

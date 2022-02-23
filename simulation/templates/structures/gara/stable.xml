@@ -3,11 +3,11 @@
   <Identity>
     <Civ>gara</Civ>
   </Identity>
-    <ProductionQueue>
+    <Trainer>
     <Entities datatype="tokens">
       units/{civ}/chariot_javelineer_b   
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/garamantians/stable.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
