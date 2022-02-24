@@ -1,34 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant file="biped/base_hoplite.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/helmets/nortafric_conical_a1.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
-        <prop actor="props/units/shields/numidian_round_3.xml" attachpoint="shield"/>
+        <prop actor="props/units/shields/gara_round_large_01_cow.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
-    <group>
-      <variant frequency="1" name="Garama Elite Swordsman 01">
+  <group>
+    <variant frequency="1" name="Gara-Linothorax-Medium-01-01">
       <textures>
-         <texture file="skeletal/gara/gara1_e.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/linothorax_medium_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Garama Elite Swordsman 02">
+    <variant frequency="1" name="Gara-Linothorax-Medium-01-02">
       <textures>
-         <texture file="skeletal/gara/gara2_e.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/linothorax_medium_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Garama Elite Swordsman 03">
+    <variant frequency="1" name="Gara-Linothorax-Medium-01-03">
       <textures>
-         <texture file="skeletal/gara/gara3_e.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/linothorax_medium_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

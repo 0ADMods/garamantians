@@ -46,11 +46,7 @@ We could always use another helping hand with this project. There are several wa
 
 
 ## 🤝 Contributors
--Art 2d/3d and Code:
-*Lopess (Welton Lopes),
-*wackyserious(Arjel Kenneth)
--Historical research:
-*kul
-*Ultimate Aurelian
+
+
 
 [⬆ Voltar ao topo](#nome-do-projeto)<br>

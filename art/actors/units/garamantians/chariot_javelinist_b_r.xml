@@ -3,7 +3,6 @@
   <castshadow/>
   <group>
     <variant file="biped/base_jav_chariot_ready.xml">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/jav_loaded.xml" attachpoint="weapon_R"/>
@@ -13,9 +12,10 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Linothorax-Medium-01-01">
+    <variant frequency="1" name="Rider-Gara-Naked-01-01">
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <textures>
-        <texture file="skeletal/gara/linothorax_medium_01_01.png" name="baseTex"/>
+        <texture file="skeletal/gara/naked_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

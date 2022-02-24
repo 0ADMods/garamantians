@@ -1,30 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
-      <variant frequency="8" name="White">
+    <variant>
       <mesh>skeletal/new/f_dress.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="3" name="Peplos-DarkBrown">
       <props>
         <prop actor="props/units/heads/new/head_kart_fem_1.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/kart_fem_01.dds" name="baseTex"/>
-        <texture file="skeletal/kush_support_female_citizen_dress_01_spec.png" name="specTex"/>
+        <texture file="skeletal/cart/dress_female_01.dds" name="baseTex"/>
       </textures>
     </variant>
-        <variant frequency="2" name="White Dress Light Skin">
+    <variant frequency="1" name="White Dress Light Skin">
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
         <prop actor="props/units/heads/head_kush_fem_light.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/maur_earrings_1.xml" attachpoint="helmet"/>
       </props>
       <textures>
-        <texture file="skeletal/kush_support_female_citizen_dress_01_light.png" name="baseTex"/>
-        <texture file="skeletal/kush_support_female_citizen_dress_01_spec.png" name="specTex"/>
+        <texture file="skeletal/kush/dress_female_01_light.png" name="baseTex"/>
+        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <!-- In this group, defined overloads for "Idle", "Walk" and "Run" -->
     <variant file="biped/female_base_walk.xml"/>
     <variant file="biped/female_carry_food.xml"/>
     <variant file="biped/female_carry_meat.xml"/>
@@ -41,8 +44,7 @@
     <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
-    <!-- In this group, define overloads for other animation types, since they presumably do not collide with each other -->
-    <variant name="Idle" frequency="1"/>
+    <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_melee_female.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml"/>

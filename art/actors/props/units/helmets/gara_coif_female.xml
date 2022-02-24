@@ -3,24 +3,21 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Coif closed">
-      <mesh>props/helmet/byza_coif_full.dae</mesh>
+      <mesh>props/helmet/gara_coif_full.dae</mesh>
+      <textures>
+        <texture file="props/helmet/gara_coif_player.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="coif-cloth-white">
-      <textures>
-        <texture file="props/helmet/cloth-white.png" name="baseTex"/>
-      </textures>
+    <variant frequency="1" name="Coif-Black">
+      <color>0 0 0</color>
     </variant>
-    <variant frequency="1" name="coif-cloth-tan">
-      <textures>
-        <texture file="props/helmet/cloth-tan.png" name="baseTex"/>
-      </textures>
+    <variant frequency="1" name="Coif-Brown">
+      <color>104 73 60</color>
     </variant>
-    <variant frequency="1" name="coif-cloth-umber">
-      <textures>
-        <texture file="props/helmet/cloth-umber.png" name="baseTex"/>
-      </textures>
+    <variant frequency="1" name="Coif-White">
+      <color>255 255 255</color>
     </variant>
   </group>
   <group>
@@ -48,5 +45,5 @@
     <variant file="biped/female_build_farm.xml"/>
     <variant file="biped/female_death.xml"/>
   </group>
-  <material>basic_trans.xml</material>
+  <material>objectcolor.xml</material>
 </actor>
