@@ -2,92 +2,14 @@
 	"Code": "gara",
 	"Name": "Garamantians",
 	"Culture": "Saara",
-	"Music": [
-{
-			"File": "Mediterranean_Waves.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Harsh_Lands_Rugged_People.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Ammon-Ra.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Sands_of_Time.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Land_between_the_two_Seas.ogg",
-			"Type": "peace"
-		}
+	"Music":[
+		{ "File": "Mediterranean_Waves.ogg", "Type": "peace" },
+		{ "File": "Harsh_Lands_Rugged_People.ogg", "Type": "peace" },
+		{ "File": "Ammon-Ra.ogg", "Type": "peace" },
+		{ "File": "Sands_of_Time.ogg", "Type": "peace" },
+		{ "File": "Land_between_the_two_Seas.ogg", "Type": "peace" }
 	],
-	"Factions":
-	[
-		{
-			"Name": "Garamantians",
-			"Description": "",
-			"Technologies":
-			[
-				{
-					"Name": "",
-					"History": "",
-					"Description": ""
-				},
-				{
-					"Name": "",
-					"History": "",
-					"Description": ""
-				}
-			],
-			"Heroes":
-			[
-				{
-					"Name": "",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "."
-				},
-				{
-					"Name": "",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": "."
-				},
-				{
-					"Name": "",
-					"Class": "",
-					"Armament": "",
-					"Emblem": "",
-					"History": ""
-				}
-			]
-		}
-	],
-	"CivBonuses":
-	[
-	
-		{
-			"Name": "Garamantians",
-			"History": "Great Sahara merchants.",
-			"Description": "Higher income (+15%) from land trade routes."
-		}
-	],
-	"TeamBonuses":
-	[
-		{
-			"Name": "",
-			"History": "",
-			"Description": ""
-		}
-	],
-	"WallSets":
-	[
-		"other/wallset_palisade",
+	"WallSets": [
 		"structures/gara/wallset_stone"
 	],
 	"StartEntities":
@@ -127,6 +49,5 @@
 		"skirmish/units/default_infantry_melee_b": "units/gara/infantry_spearman_b",
 	    "skirmish/units/default_ship_trireme":"units/{civ}/ship_bireme"
 	},
-
 	"SelectableInGameSetup": true
 }

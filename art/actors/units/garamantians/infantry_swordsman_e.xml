@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
@@ -15,25 +15,24 @@
   <group>
     <variant frequency="1" name="Garama Elite Swordsman 01">
       <textures>
-         <texture file="skeletal/gara/gara1.png" name="baseTex"/>
+        <texture file="skeletal/gara/gara1.png" name="baseTex"/>
         <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Garama Elite Swordsman 02">
       <textures>
-         <texture file="skeletal/gara/gara2.png" name="baseTex"/>
+        <texture file="skeletal/gara/gara2.png" name="baseTex"/>
         <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Garama Elite Swordsman 03">
       <textures>
-         <texture file="skeletal/gara/gara3.png" name="baseTex"/>
+        <texture file="skeletal/gara/gara3.png" name="baseTex"/>
         <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
       </textures>
     </variant>
-
     <variant frequency="1" name="Garama Elite Swordsman 05">
-     <props>
+      <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
       </props>
       <textures>
@@ -42,20 +41,20 @@
       </textures>
     </variant>
     <variant frequency="1" name="Garama Elite Swordsman 06">
-       <props>
+      <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
       </props>
       <textures>
-         <texture file="skeletal/gara/garan2.png" name="baseTex"/>
+        <texture file="skeletal/gara/garan2.png" name="baseTex"/>
         <texture file="skeletal/kush_pike_b_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-        <variant frequency="1" name="Garama Elite Swordsman 07">
-       <props>
+    <variant frequency="1" name="Garama Elite Swordsman 07">
+      <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
       </props>
       <textures>
-         <texture file="skeletal/gara/garan3.png" name="baseTex"/>
+        <texture file="skeletal/gara/garan3.png" name="baseTex"/>
         <texture file="skeletal/kush_pike_b_01_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -83,7 +82,7 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml">
       <props>
-        <prop actor="props/units/helmets/arab_coif_swordsman_ready.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/gara_coif_basic.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

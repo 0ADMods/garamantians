@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
         <prop actor="props/units/heads/kush_nubian_ostrich_feathers_e.xml" attachpoint="head"/>
@@ -15,10 +15,19 @@
     </variant>
   </group>
   <group>
-    <variant name="Kushite Advanced Archer Infantry 01">
+    <variant frequency="1" name="Gara-Tunic-Noble-01-01">
       <textures>
-         <texture file="skeletal/kart_cjv_e_1.dds" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/tunic_noble_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-Tunic-Noble-01-02">
+      <textures>
+        <texture file="skeletal/gara/tunic_noble_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-Tunic-Noble-01-03">
+      <textures>
+        <texture file="skeletal/gara/tunic_noble_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -55,5 +64,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
@@ -15,10 +15,10 @@
     </variant>
   </group>
   <group>
-    <variant name="Kushite Advanced Archer Infantry 01">
+    <variant frequency="3" name="Gara-Naked-01-01">
+      <mesh>skeletal/new/m_naked.dae</mesh>
       <textures>
-         <texture file="skeletal/kart_cjv_e_1.dds" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/naked_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -55,5 +55,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <castshadow/>
   <group>
@@ -13,16 +13,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="kush_swordsman_00">
+    <variant frequency="1" name="Gara-Tunic-Noble-01-01">
       <textures>
-        <texture file="skeletal/kart_cjv_b_1.dds" name="baseTex"/>
-        <texture file="skeletal/kush_pike_a_01_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/tunic_noble_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="kush_swordsman_01">
+    <variant frequency="1" name="Gara-Tunic-Noble-01-02">
       <textures>
-        <texture file="skeletal/kart_cjv_b_1.dds" name="baseTex"/>
-        <texture file="skeletal/kush_isw_b_01_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/tunic_noble_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-Tunic-Noble-01-03">
+      <textures>
+        <texture file="skeletal/gara/tunic_noble_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -48,7 +51,7 @@
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-	<variant file="biped/attack_ranged_javelinist.xml"/>
+    <variant file="biped/attack_ranged_javelinist.xml"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/gather_tree.xml"/>
@@ -63,5 +66,5 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml"/>
   </group>
-  <material>player_trans_spec.xml</material>
+  <material>player_trans.xml</material>
 </actor>
