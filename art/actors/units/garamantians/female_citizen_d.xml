@@ -5,36 +5,25 @@
     <variant>
       <mesh>skeletal/new/f_dress.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/gara_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/gara_coif_female_citizen_basic.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="White Dress Light Skin">
+    <variant frequency="1" name="Tunic-Female-Desert-01-01">
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_numid_basic.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/kush/dress_female_01_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/tunic_female_desert_medium_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="White Dress Medium Skin">
+    <variant frequency="1" name="Tunic-Female-Desert-01-02">
       <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_numid_basic.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/kush/dress_female_01_medium.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Striped Dress Light Skin">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/dress_female_02_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_02_spec.png" name="specTex"/>
+        <texture file="skeletal/gara/tunic_female_desert_medium_01_02.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
@@ -50,13 +39,13 @@
     <variant frequency="1" name="Idle"/>
     <variant file="biped/attack_melee_female.xml">
       <props>
-        <prop actor="props/units/helmets/gara_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/gara_coif_female_citizen_basic.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant file="biped/attack_slaughter.xml"/>
     <variant file="biped/female_death.xml">
       <props>
-        <prop actor="props/units/helmets/gara_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/gara_coif_female_citizen_basic.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant file="biped/female_gather_tree.xml"/>
@@ -64,7 +53,7 @@
     <variant file="biped/female_gather_fruit.xml"/>
     <variant file="biped/female_gather_meat.xml">
       <props>
-        <prop actor="props/units/helmets/gara_coif_female.xml" attachpoint="root"/>
+        <prop actor="props/units/helmets/gara_coif_female_citizen_basic.xml" attachpoint="root"/>
       </props>
     </variant>
     <variant file="biped/female_gather_rock.xml"/>

@@ -17,11 +17,11 @@
   </Health>
   <Identity>
     <Civ>gara</Civ>
-    <GenericName>Garamantians Chariot</GenericName>
+    <GenericName>Garamantian Chariot</GenericName>
     <SpecificName>Essedon</SpecificName>
-    <SelectionGroupName>units/gara/champion_chariot</SelectionGroupName>
+    <SelectionGroupName>units/gara/chariot_javelineer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-    <Icon>units/gara/chariot_2.png</Icon>
+    <Icon>units/gara/cavaly_chariot_javelineer.png</Icon>
   </Identity>
     <Promotion>
     <Entity>units/gara/chariot_javelineer_a</Entity>

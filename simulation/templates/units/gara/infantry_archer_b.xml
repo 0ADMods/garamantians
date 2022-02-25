@@ -9,10 +9,10 @@
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>units/gara/infantry_archer_b</SelectionGroupName>
-    <GenericName>Libian Archer</GenericName>
+    <GenericName>Libyan Archer</GenericName>
     <SpecificName>Pdty Nhsyw</SpecificName>
     <RequiredTechnology>phase_village</RequiredTechnology>
-    <Icon>units/gara/lybian_archer.png</Icon>
+    <Icon>units/gara/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gara/infantry_archer_a</Entity>

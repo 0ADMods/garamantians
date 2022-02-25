@@ -9,9 +9,9 @@
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>units/gara/infantry_spearman_b</SelectionGroupName>
-    <GenericName>garamantians Spearman</GenericName>
+    <GenericName>Garamantian Spearman</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/gara/desert_spearman.png</Icon>
+    <Icon>units/gara/infantry_spearman_desert.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gara/infantry_spearman_a</Entity>

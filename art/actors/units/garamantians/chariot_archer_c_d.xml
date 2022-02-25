@@ -2,28 +2,28 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_driver_chariot.xml">
+    <variant file="biped/base_driver_chariot.xml" name="Driver-Chariot">
       <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/helmets/nortafric_conical_b1.xml" attachpoint="helmet"/>
-        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/nortafric_conical_a1.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-Noble-01-01">
+    <variant frequency="1" name="Driver-Gara-Linothorax-Noble-Medium-01-01">
+      <props>
+        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
+      </props>
       <textures>
-        <texture file="skeletal/gara/tunic_noble_01_01.png" name="baseTex"/>
+        <texture file="skeletal/gara/linothorax_noble_medium_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Noble-01-02">
+    <variant frequency="1" name="Driver-Gara-Linothorax-Noble-Dark-01-01">
+      <props>
+        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
+      </props>
       <textures>
-        <texture file="skeletal/gara/tunic_noble_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Noble-01-03">
-      <textures>
-        <texture file="skeletal/gara/tunic_noble_01_03.png" name="baseTex"/>
+        <texture file="skeletal/gara/linothorax_noble_dark_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

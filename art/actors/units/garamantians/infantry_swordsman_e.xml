@@ -3,9 +3,9 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
-        <prop actor="props/units/heads/new/head_numid_all.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/new/head_numid_elite.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/gara_coif_basic.xml" attachpoint="root"/>
         <prop actor="props/units/kush_meroitic_scabbard.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/spatha.xml" attachpoint="weapon_R"/>
@@ -13,43 +13,17 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-01">
+    <variant frequency="1" name="Gara-Linothorax-Noble-Medium-01-01">
       <textures>
-        <texture file="skeletal/gara/tunic_medium_01_01.png" name="baseTex"/>
+        <texture file="skeletal/gara/linothorax_noble_medium_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-02">
-      <textures>
-        <texture file="skeletal/gara/tunic_medium_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Medium-01-03">
-      <textures>
-        <texture file="skeletal/gara/tunic_medium_01_03.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-01">
+    <variant frequency="1" name="Gara-Linothorax-Noble-Dark-01-01">
       <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/gara/tunic_dark_01_01.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-02">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/gara/tunic_dark_01_02.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Gara-Tunic-Dark-01-03">
-      <props>
-        <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
-      </props>
-      <textures>
-        <texture file="skeletal/gara/tunic_dark_01_03.png" name="baseTex"/>
+        <texture file="skeletal/gara/linothorax_noble_dark_01_01.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

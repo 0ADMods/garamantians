@@ -2,9 +2,9 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>gara</Civ>
-    <SelectionGroupName>units/athen_cavalry_javelinist_b</SelectionGroupName>
-    <SpecificName>Pródromos</SpecificName>
-    <Icon>units/gara/lybian_cav_javelineer.png</Icon>
+    <SelectionGroupName>units/gara_cavalry_javelinist_b</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/gara/cavalry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/gara/cavalry_javelineer_a</Entity>

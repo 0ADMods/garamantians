@@ -17,8 +17,7 @@
 	"WallSets": [
 		"structures/gara/wallset_stone"
 	],
-	"StartEntities":
-	[
+	"StartEntities": [
 		{
 			"Template": "structures/gara/civil_centre"
 		},
@@ -36,10 +35,6 @@
 		},
 		{
 			"Template": "units/gara/cavalry_javelineer_b"
-		},
-		{
-			"Template": "units/gara/chariot_javelineer_b",
-			"Count": 1
 		}
 	],
 	"AINames":

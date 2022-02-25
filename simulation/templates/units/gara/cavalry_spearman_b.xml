@@ -2,10 +2,10 @@
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>gara</Civ>
-    <SelectionGroupName>units/kush/cavalry_spearman_b</SelectionGroupName>
+    <SelectionGroupName>units/thra/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Garamantian Heavy Cavalry</GenericName>
     <SpecificName>Htr</SpecificName>
-    <Icon>units/gara/garamantian_cav_spearman.png</Icon>
+    <Icon>units/gara/cavalry_spearman.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>

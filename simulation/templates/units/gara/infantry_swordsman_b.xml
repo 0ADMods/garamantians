@@ -9,9 +9,9 @@
   <Identity>
     <Civ>gara</Civ>
     <SelectionGroupName>units/kush/infantry_swordsman_b</SelectionGroupName>
-    <GenericName>Libian Swordsman</GenericName>
+    <GenericName>Libyan Swordsman</GenericName>
     <SpecificName>knw hps</SpecificName>
-    <Icon>units/gara/desert_swordsman.png</Icon>
+    <Icon>units/gara/infantry_swordsman_desert.png</Icon>
     <RequiredTechnology>phase_town</RequiredTechnology>
   </Identity>
   <Promotion>
