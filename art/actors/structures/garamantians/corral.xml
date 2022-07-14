@@ -5,6 +5,9 @@
     <variant name="base">
       <props>
         <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
+        <prop actor="props/structures/garamantians/horse_corral_a.xml" attachpoint="horse_a" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/garamantians/horse_corral_b.xml" attachpoint="horse_b" maxheight="20" minheight="-20"/>
+        <prop actor="props/structures/garamantians/horse_corral_c.xml" attachpoint="horse_c" maxheight="20" minheight="-20"/>
       </props>
       <textures>
         <texture file="structural/gara_struct.png" name="baseTex"/>
