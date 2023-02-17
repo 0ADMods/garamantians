@@ -1,8 +1,8 @@
 {
 	"name": "garamantians",
-	"version": "0.0.24",
+	"version": "0.0.27",
 	"label": "gara",
 	"url": "",
 	"description": "Adds the garamantes",
-	"dependencies": ["0ad=0.0.26"]
+	"dependencies": ["0ad=0.0.27"]
 }

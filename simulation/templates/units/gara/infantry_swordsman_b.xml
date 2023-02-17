@@ -12,7 +12,7 @@
     <GenericName>Libyan Swordsman</GenericName>
     <SpecificName>knw hps</SpecificName>
     <Icon>units/gara/infantry_swordsman_desert.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <!-- <RequiredTechnology>phase_town</RequiredTechnology> -->
   </Identity>
   <Promotion>
     <Entity>units/gara/infantry_swordsman_a</Entity>

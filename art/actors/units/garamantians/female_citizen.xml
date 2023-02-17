@@ -3,30 +3,34 @@
   <castshadow/>
   <group>
     <variant>
-      <mesh>skeletal/new/f_dress.dae</mesh>
+      <mesh>skeletal/new/f_tunic_short.dae</mesh>
     </variant>
   </group>
   <group>
     <variant frequency="3" name="Peplos-DarkBrown">
       <props>
-        <prop actor="props/units/heads/new/head_kart_fem_1.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/head_female_gara_shorthair.xml" attachpoint="head"/>
+        <prop actor="props/units/heads/kush_dread_hair_fem.xml" attachpoint="head"/>
       </props>
-      <textures>
-        <texture file="skeletal/cart/dress_female_01.dds" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="White Dress Light Skin">
-      <mesh>skeletal/new/f_dress.dae</mesh>
-      <props>
-        <prop actor="props/units/heads/head_kush_fem_light.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/maur_earrings_1.xml" attachpoint="helmet"/>
-      </props>
-      <textures>
-        <texture file="skeletal/kush/dress_female_01_light.png" name="baseTex"/>
-        <texture file="skeletal/kush/dress_female_01_spec.png" name="specTex"/>
-      </textures>
     </variant>
   </group>
+  <group>
+    <variant frequency="1" name="Gara-f-01-01">
+      <textures>
+        <texture file="skeletal/gara/tunic_female_garamantian_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-f-01-02">
+      <textures>
+        <texture file="skeletal/gara/tunic_female_garamantian_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-f-01-03">
+      <textures>
+        <texture file="skeletal/gara/tunic_female_garamantian_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>   
   <group>
     <variant file="biped/female_base_walk.xml"/>
     <variant file="biped/female_carry_food.xml"/>

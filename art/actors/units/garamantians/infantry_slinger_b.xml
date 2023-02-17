@@ -12,31 +12,12 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Garama Elite Swordsman 01">
-      <textures>
-         <texture file="skeletal/gara/gara1.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Garama Elite Swordsman 02">
-      <textures>
-         <texture file="skeletal/gara/gara2.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="Garama Elite Swordsman 03">
-      <textures>
-         <texture file="skeletal/gara/gara3.png" name="baseTex"/>
-        <texture file="skeletal/kush_basic_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-
     <variant frequency="1" name="Garama Elite Swordsman 05">
      <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
       </props>
       <textures>
-        <texture file="skeletal/gara/garan1.png" name="baseTex"/>
+        <texture file="skeletal/gara/tunic_light_gara_01_01.png" name="baseTex"/>
         <texture file="skeletal/kush_pike_b_01_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -45,7 +26,7 @@
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
       </props>
       <textures>
-         <texture file="skeletal/gara/garan2.png" name="baseTex"/>
+         <texture file="skeletal/gara/tunic_light_gara_01_02.png" name="baseTex"/>
         <texture file="skeletal/kush_pike_b_01_spec.png" name="specTex"/>
       </textures>
     </variant>
@@ -54,7 +35,7 @@
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
       </props>
       <textures>
-         <texture file="skeletal/gara/garan3.png" name="baseTex"/>
+         <texture file="skeletal/gara/tunic_light_gara_01_03.png" name="baseTex"/>
         <texture file="skeletal/kush_pike_b_01_spec.png" name="specTex"/>
       </textures>
     </variant>
