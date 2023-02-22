@@ -9,6 +9,7 @@
         <prop actor="props/units/helmets/gara_turban.xml" attachpoint="helmet"/>
         <prop actor="props/units/kush_meroitic_scabbard.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/gara_sword.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/shields/gara_shield.xml" attachpoint="shield"/> 
       </props>
     </variant>
   </group>
@@ -26,6 +27,14 @@
     <variant frequency="1" name="Gara-Tunic-Medium-01-03">
       <textures>
         <texture file="skeletal/gara/tunic_medium_gara_02_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -56,5 +65,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

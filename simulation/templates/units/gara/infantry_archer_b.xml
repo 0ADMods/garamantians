@@ -11,7 +11,9 @@
     <SelectionGroupName>units/gara/infantry_archer_b</SelectionGroupName>
     <GenericName>Libyan Archer</GenericName>
     <SpecificName>Pdty Nhsyw</SpecificName>
-    <RequiredTechnology>phase_village</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_village</Techs>
+    </Requirements>
     <Icon>units/gara/infantry_archer.png</Icon>
   </Identity>
   <Promotion>

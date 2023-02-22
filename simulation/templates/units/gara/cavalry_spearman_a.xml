@@ -7,6 +7,6 @@
     <Entity>units/gara/cavalry_spearman_e</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/garamantians/cavalry_spearman_a_m.xml</Actor>
+    <Actor>units/garamantians/camelry_spearman_m.xml</Actor>
   </VisualActor>
 </Entity>

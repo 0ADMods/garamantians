@@ -2,18 +2,24 @@
 <actor version="1">
   <castshadow/>    
   <group>
-    <variant frequency="1" name="base">
-      <mesh>props/shield/shield_gara_m.dae</mesh>
+    <variant frequency="1" name="base1">
+      <mesh>props/helmet/gara_f_turban_1.dae</mesh>
+    </variant>
+    <variant frequency="1" name="base2">
+      <mesh>props/helmet/gara_f_turban_2.dae</mesh>
+    </variant>
+    <variant frequency="1" name="base3">
+      <mesh>props/helmet/gara_f_turban_3.dae</mesh>
     </variant>
   </group>
    <group>
-   <variant frequency="1" name="2">
+	 <variant frequency="1" name="2">
       <textures>
-	    <texture file="props/shield/gara_shield_gold.png" name="baseTex"/>
+	    <texture file="props/helmet/cloth-white.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
-  <group>
+    <group>
     <variant>
       <textures>
         <texture file="default_norm.png" name="normTex"/>

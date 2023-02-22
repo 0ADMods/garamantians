@@ -9,6 +9,9 @@
     <GenericName>Bireme</GenericName>
     <SpecificName>Du-Mašōt</SpecificName>
     <Icon>units/cart_ship_bireme.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>structures/carthaginians/bireme.xml</Actor>

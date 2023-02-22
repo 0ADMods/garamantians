@@ -10,7 +10,7 @@
     <variant frequency="3" name="Peplos-DarkBrown">
       <props>
         <prop actor="props/units/heads/head_female_gara_shorthair.xml" attachpoint="head"/>
-        <prop actor="props/units/heads/kush_dread_hair_fem.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/gara_f_turban_1.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
@@ -30,7 +30,15 @@
         <texture file="skeletal/gara/tunic_female_garamantian_01_03.png" name="baseTex"/>
       </textures>
     </variant>
-  </group>   
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
   <group>
     <variant file="biped/female_base_walk.xml"/>
     <variant file="biped/female_carry_food.xml"/>
@@ -63,5 +71,5 @@
     <variant file="biped/female_build.xml"/>
     <variant file="biped/female_build_farm.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

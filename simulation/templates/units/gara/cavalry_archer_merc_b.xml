@@ -12,12 +12,14 @@
   </Footprint>
   <Identity>
     <Civ>gara</Civ>
-    <SelectionGroupName>units/kush/cavalry_javelineer_merc_b</SelectionGroupName>
+    <SelectionGroupName>units/gara/cavalry_archer_merc_b</SelectionGroupName>
     <GenericName>Desert Raider</GenericName>
     <SpecificName>nhw Bulahau gml</SpecificName>
-    <VisibleClasses datatype="tokens">Camel Mercenary</VisibleClasses>
-    <Icon>units/kush_camel_javelinist.png</Icon>
-    <!-- <RequiredTechnology>phase_town</RequiredTechnology> -->
+    <VisibleClasses datatype="tokens">Camel</VisibleClasses>
+    <Icon>units/gara/cavalry_archer_merc_b.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/gara/cavalry_archer_merc_a</Entity>
