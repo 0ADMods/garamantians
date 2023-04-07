@@ -7,25 +7,38 @@
     </variant>
   </group>
   <group>
-    <variant frequency="3" name="Peplos-DarkBrown">
+    <variant frequency="1" name="varClara">
+      <props>
+        <prop actor="props/units/heads/new/head_kart_fem_1.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/gara_f_turban_1.xml" attachpoint="helmet"/>
+      </props>
+      <textures>
+        <texture file="skeletal/gara/tunic_female_garamantian_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="Gara-f-01-01">
       <props>
         <prop actor="props/units/heads/head_female_gara_shorthair.xml" attachpoint="head"/>
         <prop actor="props/units/helmets/gara_f_turban_1.xml" attachpoint="helmet"/>
       </props>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Gara-f-01-01">
       <textures>
         <texture file="skeletal/gara/tunic_female_garamantian_01_01.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Gara-f-01-02">
+      <props>
+        <prop actor="props/units/heads/head_female_gara_shorthair.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/gara_f_turban_1.xml" attachpoint="helmet"/>
+      </props>
       <textures>
         <texture file="skeletal/gara/tunic_female_garamantian_01_02.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="1" name="Gara-f-01-03">
+      <props>
+        <prop actor="props/units/heads/head_female_gara_shorthair.xml" attachpoint="head"/>
+        <prop actor="props/units/helmets/gara_f_turban_1.xml" attachpoint="helmet"/>
+      </props>
       <textures>
         <texture file="skeletal/gara/tunic_female_garamantian_01_03.png" name="baseTex"/>
       </textures>

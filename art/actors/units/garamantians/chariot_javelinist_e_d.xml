@@ -10,7 +10,7 @@
     </variant>
   </group>
   <group>
-    <!-- <variant frequency="1" name="Gara-Tunic-Medium-01-01">
+    <variant frequency="1" name="Gara-Tunic-Medium-01-01">
       <textures>
         <texture file="skeletal/gara/tunic_medium_01_01.png" name="baseTex"/>
       </textures>
@@ -24,7 +24,7 @@
       <textures>
         <texture file="skeletal/gara/tunic_medium_01_03.png" name="baseTex"/>
       </textures>
-    </variant> -->
+    </variant>
     <variant frequency="1" name="Gara-Tunic-Dark-01-01">
       <props>
         <prop actor="props/units/heads/head_kush_meroitic.xml" attachpoint="head"/>
