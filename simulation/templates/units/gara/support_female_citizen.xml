@@ -10,8 +10,8 @@
     <Civ>gara</Civ>
     <SpecificName>Gýnē Athēnaía</SpecificName>
     <GenericName>gara Woman</GenericName>
-    <Icon>units/hele_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/gara_support_female_citizen</SelectionGroupName>
+    <Icon>units/gara/support_female_citizen.png</Icon>
+    <SelectionGroupName>units/gara/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/garamantians/female_citizen.xml</Actor>

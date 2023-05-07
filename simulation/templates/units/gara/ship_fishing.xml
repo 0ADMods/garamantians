@@ -3,7 +3,7 @@
   <Identity>
     <Civ>gara</Civ>
     <SpecificName>Ploîon Halieutikón</SpecificName>
-    <Icon>units/hele_ship_fishing.png</Icon>
+    <Icon>units/hele/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/ptolemies/fishing_boat.xml</Actor>

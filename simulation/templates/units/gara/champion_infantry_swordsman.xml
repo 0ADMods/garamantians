@@ -8,10 +8,10 @@
   <Identity>
     <Civ>gara</Civ>
     <Lang></Lang>
-    <GenericName>Skiritai Commando</GenericName>
+    <GenericName>Champion swordsman</GenericName>
     <SpecificName>Ékdromos Skirítēs</SpecificName>
     <Rank>Elite</Rank>
-    <Icon>units/gara/champion_infantry_sword.png</Icon>
+    <Icon>units/gara/champion_infantry_swordsman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
